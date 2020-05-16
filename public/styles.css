@@ -90,7 +90,9 @@ main {
 }
 
 .list-item .copied {
-  background-color: greenyellow !important;
+  background-color: #28a745;
+  color: #fff;
+  font-weight: 600;
 }
 
 .list-item .value:hover {
