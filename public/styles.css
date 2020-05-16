@@ -114,3 +114,9 @@ footer img {
 footer a {
   color: #fff;
 }
+
+@media only screen and (max-width: 450px) {
+  main {
+    margin-top: 100px;
+  }
+}
