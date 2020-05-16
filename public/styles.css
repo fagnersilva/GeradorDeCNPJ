@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background: linear-gradient(to right, rgb(75, 108, 183), rgb(24, 40, 72));
 }
 
 main {
@@ -32,6 +32,7 @@ main {
   border-radius: 10px;
   background-color: azure;
   transition: all ease-in-out 600ms;
+  box-shadow: 0px 0px 29px 5px rgba(0, 0, 0, 0.34);
 }
 
 .title {
@@ -49,7 +50,7 @@ main {
 .btn {
   width: 130px;
   height: 40px;
-  margin: 10px;
+  margin: 30px;
   font-size: 16px;
   color: #fff;
   background-color: #4285f4;
@@ -95,4 +96,19 @@ main {
 .list-item .value:hover {
   transform: scale(1.2);
   box-shadow: 0 14px 20px -5px grey;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+footer img {
+  padding-right: 10px;
+}
+
+footer a {
+  color: #fff;
 }
