@@ -1,1 +1,1 @@
-web: PORT=5000 $GOPATH/bin/geradorCnpj 
+web: PORT=5000 /bin/geradorCnpj 
