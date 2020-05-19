@@ -1,9 +1,7 @@
 {
-	"ImportPath": "geradorCnpj",
-	"GoVersion": "go1.14",
-	"GodepVersion": "v80",
-	"Packages": [
-		"./..."
-	],
-	"Deps": []
+  "ImportPath": "geradorCnpj",
+  "GoVersion": "go1.9",
+  "GodepVersion": "v80",
+  "Packages": ["./..."],
+  "Deps": []
 }
