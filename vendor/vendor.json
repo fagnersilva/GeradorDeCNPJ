@@ -5,6 +5,6 @@
   "rootPath": "geradorCnpj",
   "heroku": {
     "install": ["./..."],
-    "goVersion": "go1.9"
+    "goVersion": "go1.14.2"
   }
 }
