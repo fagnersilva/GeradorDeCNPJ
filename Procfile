@@ -1,1 +1,1 @@
-web: PORT=5000 geradorCnpj 
+web: PORT=5000 bin/geradorCnpj 
