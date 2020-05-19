@@ -34,8 +34,7 @@ func main() {
 	fs := http.FileServer(http.Dir("./public"))
 	http.Handle("/", fs)
 	http.HandleFunc("/cnpj", getCPNJ)
+
 	log.Printf("Listening on %s...\n", addr)
-	if err := http.ListenAndServe(addr, nil); err != nil {
-		panic(err)
-	}
+	http.ListenAndServe(addr, nil)
 }
