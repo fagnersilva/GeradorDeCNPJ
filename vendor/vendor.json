@@ -1,0 +1,10 @@
+{
+  "comment": "",
+  "ignore": "test",
+  "package": [],
+  "rootPath": "geradorCnpj",
+  "heroku": {
+    "install": ["./..."],
+    "goVersion": "go1.9"
+  }
+}
