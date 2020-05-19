@@ -1,1 +1,1 @@
-“web: PORT=5000 geradorcnpj”
+web: PORT=5000 geradorcnpj
