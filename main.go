@@ -31,7 +31,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fs := http.FileServer(http.Dir("public"))
+	fs := http.FileServer(http.Dir("./public"))
 	http.Handle("/", fs)
 	http.HandleFunc("/cnpj", getCPNJ)
 	log.Printf("Listening on %s...\n", addr)
