@@ -25,11 +25,11 @@ Rodar o comando abaixo
 ## Visualização
 ![Alt Text](./public/assets/preview.gif)
 
-## Authors
+## Autor
 
 * **Leandro Paranhos** - *Dev* - [Github](https://github.com/lParanhos)
 
 
-## License
+## Licença
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Este projeto está licenciado sob a licença MIT - consulte o arquivo  [LICENSE.md](LICENSE.md) para obter detalhes
