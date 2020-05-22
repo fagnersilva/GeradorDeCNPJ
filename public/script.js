@@ -1,14 +1,14 @@
- async function fetchData(){
- let response = await  fetch("http://localhost:3000/cnpj")
-   let { data } = await response.json()
-   return data 
+async function fetchData() {
+    let response = await fetch("http://localhost:5000/cnpj")
+    let { data } = await response.json()
+    return data
 }
 
-function formatCnpj(value){
+function formatCnpj(value) {
     return value.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/, "$1.$2.$3/$4-$5")
 }
 
-function copy(e){
+function copy(e) {
     const input = e.target;
     input.select();
     input.setSelectionRange(0, 99999);
@@ -26,19 +26,19 @@ function copy(e){
     });
 }
 
-async function makeList(){
+async function makeList() {
     let element = document.querySelector(".list-box");
     let cnpjs = await fetchData();
     const previousList = document.querySelector(".list");
 
-    if(previousList){
+    if (previousList) {
         previousList.parentNode.removeChild(previousList);
     }
 
     const ul = document.createElement("ul");
     ul.classList.add("list");
 
-    for(let i = 0; i < cnpjs.length; i++){
+    for (let i = 0; i < cnpjs.length; i++) {
         let li = document.createElement("li");
         li.classList.add("list-item");
 
